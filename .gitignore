@@ -1,0 +1,25 @@
+# Dataset files (Yelp data must not be redistributed)
+data/
+*.json
+*.tar
+*.zip
+*.parquet
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Secrets (just in case)
+.env
+*.key
